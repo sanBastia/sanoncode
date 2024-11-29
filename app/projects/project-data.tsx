@@ -27,4 +27,11 @@ export const projects: Project[] = [
       "Solution for Import things !",
     url: "https://importplus.id",
   },
+  {
+    title: "Vocca",
+    year: 2024,
+    description:
+      "chat app that breaking the language barrier !",
+    url: "https://vocca.id",
+  },
 ];
