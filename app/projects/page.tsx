@@ -10,8 +10,9 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Projects</h1>
-      <div className="space-y-6">
+      <h1 className="text-3xl font-medium tracking-tight py-2">Projects 🚀✨</h1>
+      <p>Things that i build and maintain some of them until now</p>
+      <div className="space-y-6 mt-8">
         {projects.map((project, index) => (
           <a
             key={index}
@@ -22,10 +23,10 @@ export default function Projects() {
           >
             <div className="flex flex-col">
               <div className="w-full flex justify-between items-baseline">
-                <span className="text-black dark:text-white font-medium tracking-tight">
+                <span className="text-black text-lg dark:text-white font-medium tracking-tight">
                   {project.title}
                 </span>
-                <span className="text-neutral-600 dark:text-neutral-400 tabular-nums text-sm">
+                <span className="text-neutral-600 dark:text-neutral-400 tabular-nums text-xs">
                   {project.year}
                 </span>
               </div>

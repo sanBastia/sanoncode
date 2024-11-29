@@ -7,24 +7,24 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
+    title: "Pesanan Khusus dari FUJIBOX",
     year: 2023,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      "Customade box service by Fujibox that help brands or retails in printing and packaging needs",
+    url: "https://pesanankhusus.fujiboxglobal.com/",
   },
   {
-    title: "Project Two",
+    title: "FUJIBOX legacy",
     year: 2022,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      "A semi-commerce by Fujibox that sell packaging product for retails in baking industry",
+    url: "https://legacy.fujiboxglobal.com/",
   },
   {
-    title: "Project Three",
-    year: 2021,
+    title: "Import Plus",
+    year: 2024,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      "Solution for Import things !",
+    url: "https://importplus.id",
   },
 ];

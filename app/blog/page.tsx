@@ -11,9 +11,10 @@ export default function BlogPosts() {
 
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Our Blog</h1>
-      <div>
-        {allBlogs
+      <h1 className="text-3xl font-medium tracking-tight py-2">Blog ✍️</h1>
+      <p>Taking some notes based on my experiences</p>
+      <div className="mt-8">
+        {allBlogs.filter((a)=> a.metadata.title !== "Getting Started with Nextfolio" && a.metadata.title !== "Custom MDX Examples" )
           .sort((a, b) => {
             if (
               new Date(a.metadata.publishedAt) >

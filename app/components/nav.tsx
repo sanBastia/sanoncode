@@ -1,20 +1,19 @@
 import Link from "next/link";
 import { ThemeSwitch } from "./theme-switch";
-import { metaData } from "../config";
+import { LuGlassWater } from "react-icons/lu";
 
 const navItems = {
   "/blog": { name: "Blog" },
   "/projects": { name: "Projects" },
-  "/photos": { name: "Photos" },
 };
 
 export function Navbar() {
   return (
-    <nav className="lg:mb-16 mb-12 py-5">
+    <nav className="lg:mb-8 mb-6 py-4">
       <div className="flex flex-col md:flex-row md:items-center justify-between">
         <div className="flex items-center">
           <Link href="/" className="text-3xl font-semibold tracking-tight">
-            {metaData.title}
+            <LuGlassWater size={28} />
           </Link>
         </div>
         <div className="flex flex-row gap-4 mt-6 md:mt-0 md:ml-auto items-center">
