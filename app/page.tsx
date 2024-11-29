@@ -19,13 +19,13 @@ export default function Page() {
     
       
       <div className="p-2 max-w-md w-full">
-        <h1 className="text-lg font-bold text-gray-800">
+        <h1 className="text-lg font-bold text-gray-800 dark:text-white">
           Hi, I am
         </h1>
         <div className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
           San Sebastian <PiHandWaving className="inline-block w-12 h-12 text-yellow-400 animate-bounce" />
         </div>
-        <p className="text-xl text-gray-600">
+        <p className="text-xl dark:text-white text-gray-600">
           I love building digital products, brands, and experiences. bringing ideas to life through code! 🚀✨
         </p>
       </div>
